@@ -1,0 +1,67 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.h-full {
+  height: 100vh;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 350px;
+}
+
+.description {
+  text-align: center;
+}
+
+.aerial {
+  width: 350px;
+}
+
+.bylaws {
+  text-decoration: none;
+}
+
+.main-pane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.description-pane {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+@media only screen and (min-width: 768px) {
+  .icon {
+    width: 500px;
+  }
+
+  .aerial {
+    width: 500px;
+  }
+
+  .main-pane {
+    flex-direction: row;
+  }
+
+  .description {
+    padding-top: 0;
+  }
+
+  .container {
+    gap: 75px;
+  }
+}
