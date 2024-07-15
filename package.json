@@ -1,0 +1,22 @@
+{
+  "name": "setters-manor",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier -w ."
+  },
+  "devDependencies": {
+    "@epic-web/config": "^1.12.0",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.2"
+  },
+  "prettier": "@epic-web/config/prettier"
+}
